@@ -1,0 +1,16 @@
+[submodule "lua/luajit2.1"]
+	path = lua/luajit2.1
+	url = https://github.com/LuaJIT/LuaJIT.git
+	branch = v2.1
+[submodule "lua/luajit2.0"]
+	path = lua/luajit2.0
+	url = https://github.com/LuaJIT/LuaJIT.git
+	branch = v2.0
+[submodule "lua/lua5.4"]
+	path = lua/lua5.4
+	url = https://github.com/lua/lua.git
+	branch = v5.4
+[submodule "lua/lua5.3"]
+	path = lua/lua5.3
+	url = https://github.com/lua/lua.git
+	branch = v5.3
