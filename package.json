@@ -1,0 +1,18 @@
+{
+  "name": "thisislua",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/thisislua.js",
+  "types": "./src/thisislua.d.ts",
+  "description": "",
+  "scripts": {
+    "gyp-clean": "node-gyp clean",
+    "gyp-build": "node-gyp rebuild"
+  },
+  "author": "yoga",
+  "license": "MIT",
+  "devDependencies": {
+    "nan": "^2.22.0",
+    "node-gyp": "^11.0.0"
+  }
+}
