@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 set -eu -o pipefail
 
@@ -44,7 +44,5 @@ if ! [[ -d "$LUA_SOURCE_DIR" ]]; then
   exit 1
 fi
 
-if [ -d "$DIST_DIR" ]; then
-  rm -rf "$DIST_DIR"
-fi
+[ -d "$DIST_DIR" ] && rm -rf "$DIST_DIR"
 __clean_so

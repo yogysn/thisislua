@@ -1,5 +1,3 @@
-#!/usr/bin/bash
-
 set -eu -o pipefail
 
 LUA_SOURCE_DIR="$CURRENT_DIR"/lua
